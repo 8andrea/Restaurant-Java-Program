@@ -1,4 +1,4 @@
-# Restaurant Class Ideas
+# Restuarant Class Ideas
 
 ### Properties
 - int waitTime
