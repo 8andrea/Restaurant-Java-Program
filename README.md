@@ -1,15 +1,22 @@
 ## Restaurant.Java
-# User Interactions - Main Method
-  * I used JOptionPane dialog boxes to collect restaurant information from the user
-  * The input values were passed into the constructor to store inside the restaurant object. 
+# Scanner
+  *  I used scanner to scan each restaurant's data from a text file.
+  *  I set the delimiter to a comma to separate each value, such as name, wait time, rating, price, distance, and hours.
+  *  The scanner reads different data types like strings, ints, and doubles. 
 
-# Getters and Setters - Restaurant Class
-  * Since we created private data fields, for encapsulation, I used Getters to get the information from the Restaurant class in the main method and used Setters to set the values when calling to them.
+# list.add()
+  * I used list.add to add restaurants that are created to the array list.
 
-# ArrayLits - Main Method
-  * I instantiated an ArrayList<Restaurant> to store Restaurant objects. This lets me store multiple restaurants instead of just one.
+# While Loop
+  * I used a while loop with hasNext() to read each data entry from the text file to make sure all restaurants are read. 
+    
+# If Statement
+  * I used an if statement to check if rating was greater than 5, if it is, then I set it to -1 since it is an invalid rating. 
 
-# toString() Method - Restaurant Class
-  * I used the toString() method to format how an object prints in a readable and clean way just like format string in python.
+# Random 
+  * I used the Random class to generate a random number
+  * I then used randIndex to store that number that corresponds to a position of the restaurant text file
+  * This then picks and prints out a random restaurant
+
 
 
